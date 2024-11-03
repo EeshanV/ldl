@@ -26,10 +26,10 @@ static int __init ModuleInit(void) {
     printk(KERN_INFO "Module loaded\n");
     retval = register_chrdev(MAJOR_NO, "dev_number", &fops);
     if(retval == 0) {
-        printk("dev_no - registered Device number Major: %d, Minor: %d", MAJOR_NO, 0);
+        printk("dev_no - registered Device number Major: %d, Minor: %d\n", MAJOR_NO, 0);
     }
     else if(retval > 0) {
-        printk("dev_no - registered Device number Major: %d, Minor: %d", retval>>20, retval&0xfffff);
+        printk("dev_no - registered Device number Major: %d, Minor: %d\n", retval>>20, retval&0xfffff);
     }
     else {
         printk("Could not register device number\n");
