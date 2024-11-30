@@ -12,5 +12,6 @@ Each module resides in its own folder, containing the source code, Makefile, and
 | `Hello_World`                 | A simple module that logs "Hello, world!" to the kernel log, serving as an introduction to module creation. |
 | `Dev_Number`                  | Module demonstrating how to obtain a device number and interact with device files.              |
 | `Read_Write`                  | Module that automatically creates device files for easy access and manipulation of device data. |
+| `semaphore`                   | Semaphore-based character driver that synchronizes concurrent access to a shared buffer         |
 
 *Additional modules will be added over time as the project progresses.*
