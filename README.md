@@ -1,7 +1,7 @@
 # ldl
 
 ## Overview
-This project is a collection of Linux kernel modules developed on the Raspberry Pi. Each module is designed to help deepen understanding of Linux kernel concepts.
+This project is a collection of Linux kernel modules. Each module is designed to help deepen understanding of Linux kernel concepts.
 
 ## Project Structure
 Each module resides in its own folder, containing the source code, Makefile, and any additional resources required for building and testing.
