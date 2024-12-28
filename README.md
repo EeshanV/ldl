@@ -15,5 +15,6 @@ Each module resides in its own folder, containing the source code, Makefile, and
 | `semaphore`                   | Semaphore-based character driver that synchronizes concurrent access to a shared buffer         |
 | `spinlock`                    | Spinlock-based character driver that protects a shared buffer from concurrent access.           |
 | `zeros`                       | Module replicating the functionality of `/dev/zero` but return '0' char instead of null character |
+| `memory-allocator`            | Module to demonstrate basic memory allocation and deallocation using `kmalloc` and `vmalloc`.    |
 
 *Additional modules will be added over time as the project progresses.*
